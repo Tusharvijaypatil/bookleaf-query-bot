@@ -16,3 +16,5 @@ data/kb_meta.json
 .vscode/
 .idea/
 .DS_Store
+
+.claude/
