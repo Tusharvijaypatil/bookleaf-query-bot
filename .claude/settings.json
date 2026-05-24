@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"c:/Users/Lenovo/Desktop/bookleaf-query-bot\" && mkdir -p src data logs identity_unification)",
+      "Bash(python -m py_compile src/config.py src/db.py src/knowledge_base.py src/classifier.py src/escalation.py src/logger.py src/responder.py src/chat.py app.py identity_unification/unify.py)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Lenovo\\Desktop\\bookleaf-query-bot"
+    ]
+  }
+}

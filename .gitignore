@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Runtime
+logs/
+__pycache__/
+*.pyc
+*.pyo
+
+# RAG cache
+*.npy
+data/kb_chunks.json
+data/kb_meta.json
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
