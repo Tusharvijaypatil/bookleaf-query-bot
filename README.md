@@ -109,15 +109,14 @@ python -m src.chat --channel whatsapp
 streamlit run app.py
 
 # Identity unification demo
-python -m identity_unification.unify
+python identity_unification/unify.py
 ```
 
 ---
 
 ## 4. Supabase schema
 
-These tables already exist in the assignment Supabase. They're
-reproduced here for reference / reviewer use.
+These are the tables in my Supabase project, reproduced here for reference.
 
 ```sql
 -- authors: mock author records the bot looks things up in
@@ -147,9 +146,11 @@ create table if not exists query_logs (
 
 -- Sample data the demo expects:
 insert into authors (email, book_title, final_submission_date, book_live_date, royalty_status, isbn, add_on_services) values
-  ('sara.johnson@xyz.com', 'Whispers of the Monsoon',  '2025-01-15', '2025-03-14', 'paid',       '978-93-12345-01-7', 'promo_video, bookmarks_pack'),
-  ('amit.verma@gmail.com', 'The Last Tea Stall',       '2025-02-20',  null,        'pending',    '978-93-12345-02-4', 'author_interview'),
-  ('priya.nair@outlook.com', 'Songs from Fort Kochi',  '2024-12-05', '2025-02-01', 'processing', '978-93-12345-03-1', 'press_release, promo_video');
+  ('sara.johnson@xyz.com',     'Whispers of Dawn',         '2025-01-15', '2025-03-01', 'Paid - March 2025',                 '978-93-5000-111-1', 'Bestseller Package, PR'),
+  ('amit.verma@gmail.com',     'The Last Monsoon',         '2025-02-20', null,         'Pending - first cycle not started', '978-93-5000-222-2', 'Award Submission'),
+  ('priya.nair@outlook.com',   'Coffee & Constellations',  '2024-11-10', '2024-12-20', 'Processing - April 2025',           '978-93-5000-333-3', 'PR, Author Copies (5)'),
+  ('rahul.deshpande@yahoo.com','Edge of Silence',          '2025-03-05', null,         'Not applicable yet',                '978-93-5000-444-4', 'None'),
+  ('meera.kapoor@xyz.com',     'Saltwater Hymns',          '2024-09-01', '2024-10-15', 'Paid - Q4 2024',                    '978-93-5000-555-5', 'Bestseller Package, PR, Award');
 ```
 
 ---
@@ -256,9 +257,9 @@ tentative answer plus a handoff line and writes a record to
 
 | Area | Rating | Notes |
 |------|--------|-------|
-| Zapier / Make / n8n comfort | _<fill>_ | _<fill>_ |
-| LangChain / OpenAI SDK experience | _<fill>_ | _<fill>_ |
-| System design & troubleshooting | _<fill>_ | _<fill>_ |
+| Zapier / Make / n8n comfort | _<9>_ | _<1+ year hands-on and using it daily>_ |
+| LangChain / OpenAI SDK experience | _<7.5>_ | _<Strong OpenAI integrations and growing LangChain>_ |
+| System design & troubleshooting | _<7>_ | _<fill>_ |
 
 ---
 
