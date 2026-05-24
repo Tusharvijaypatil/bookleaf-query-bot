@@ -257,9 +257,9 @@ tentative answer plus a handoff line and writes a record to
 
 | Area | Rating | Notes |
 |------|--------|-------|
-| Zapier / Make / n8n comfort | _<9>_ | _<1+ year hands-on and using it daily>_ |
-| LangChain / OpenAI SDK experience | _<7.5>_ | _<Strong OpenAI integrations and growing LangChain>_ |
-| System design & troubleshooting | _<7>_ | _<fill>_ |
+| Zapier / Make / n8n comfort | _9_ | _1+ year hands-on and using it daily_ |
+| LangChain / OpenAI SDK experience | _7.5_ | _Strong OpenAI integrations and growing LangChain_ |
+| System design & troubleshooting | _7_ | _<fill>_ |
 
 ---
 
